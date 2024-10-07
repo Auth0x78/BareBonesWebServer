@@ -30,7 +30,7 @@ A minimalistic web server focused on simplicity and lightweight HTTP handling us
 
 1. After building, run the server from the Visual Studio environment or by executing the `.exe` file from the build directory:
     ```bash
-    ./BareBonesWebServer.exe
+    ./minimal_server.exe
     ```
 
 2. Open a browser and navigate to:
