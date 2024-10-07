@@ -51,5 +51,4 @@ A minimalistic web server focused on simplicity and lightweight HTTP handling us
 Feel free to fork this repository and submit pull requests for new features, bug fixes, or enhancements.
 
 ## License
-[LICENSE.md]
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
