@@ -145,7 +145,7 @@ void handleClient(SOCKET clientSocket) {
             if (send(clientSocket, body.c_str(), body.size(), 0) == SOCKET_ERROR)
                 Logger::fmtLogError("Failed to send contents of body with error: %ld", WSAGetLastError());
 
-            Logger::fmtLogInfo("Response sent: \n%s", httpHeader.c_str());
+            Logger::fmtLogInfo("Response sent: \n%s%s", httpHeader.c_str(), body.c_str());
         }
         else {
             Respond404(clientSocket);
